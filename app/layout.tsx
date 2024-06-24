@@ -1,15 +1,17 @@
-import type { Metadata } from "next";
+import type { Metadata as NextMetadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
-
 const inter = Inter({ subsets: ["latin"] });
+
+interface Metadata extends NextMetadata {
+  image?: string;
+}
 
 export const metadata: Metadata = {
   title: "ARENA Nicolas | Portfolio",
   description: "ARENA Nicolas, un développeur fullstack passionné par la création de sites web et d'applications web modernes et performantes.",
-  url: "https://nguyen-minh.dev",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   keywords: [
       "Creative Web Developer France",
