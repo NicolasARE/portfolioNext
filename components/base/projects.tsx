@@ -18,7 +18,7 @@ export default function ProjectsCard() {
       description: "Une maquette de site web pour une entreprise dans l'événementiel.",
       technologies: "NextJS, TypeScript",
       date: "Avril, 2024",
-      src: "images/mode.png",
+      src: "images/642shots_so.png",
       href: "https://mode-three.vercel.app/"
     },
     {
@@ -26,7 +26,7 @@ export default function ProjectsCard() {
       description: "Une maquette réalisée pour une entreprise dans le jeu vidéo.",
       technologies: "HTML/CSS, JavaScript",
       date: "Décembre, 2023",
-      src: "images/daichi.png",
+      src: "images/181shots_so.png",
       href: "https://exemple.showmyteam.fr/"
     },
     {
@@ -34,7 +34,7 @@ export default function ProjectsCard() {
       description: "Un site web réalisé pour la communauté MMI de l'IUT de Haguenau.",
       technologies: "Wordpress, JavaScript",
       date: "Mai, 2022",
-      src: "images/mmi.png",
+      src: "images/723_1x_shots_so.png",
       href: "https://communaute-mmi.fr/"
     },
     {
@@ -42,7 +42,7 @@ export default function ProjectsCard() {
       description: "Un site web réalisé pour un projet scolaire de MMI.",
       technologies: "PHP, HTML/CSS",
       date: "Octobre, 2022",
-      src: "images/manga.png",
+      src: "images/136_1x_shots_so.png",
       href: "https://manga.arena.etu.mmi-unistra.fr/"
     }
   ];
