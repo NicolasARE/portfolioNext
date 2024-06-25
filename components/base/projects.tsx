@@ -50,7 +50,7 @@ export default function ProjectsCard() {
   return (
     
     <section id="projets" >
-      <h2 className="text-3xl font-bold text-center tracking-tighter sm:text-4xl m-3 hover:underline">Projets</h2>
+      <h2 className="text-3xl font-bold text-center tracking-tighter sm:text-4xl m-3  mt-16">Projets</h2>
       <div className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:p-6 container">
       {projects.map((project, i) => (
         <div key={i} className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
