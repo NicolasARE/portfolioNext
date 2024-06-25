@@ -17,7 +17,7 @@ export default function ProjectsCard() {
       title: "Möde Entertainment",
       description: "Une maquette de site web pour une entreprise dans l'événementiel.",
       technologies: "NextJS, TypeScript",
-      date: "Avril 2024",
+      date: "Avril, 2024",
       src: "images/mode.png",
       href: "https://mode-three.vercel.app/"
     },
@@ -33,7 +33,7 @@ export default function ProjectsCard() {
       title: "Communauté MMI",
       description: "Un site web réalisé pour la communauté MMI de l'IUT de Haguenau.",
       technologies: "Wordpress, JavaScript",
-      date: "Mai 2022",
+      date: "Mai, 2022",
       src: "images/mmi.png",
       href: "https://communaute-mmi.fr/"
     },
@@ -41,14 +41,17 @@ export default function ProjectsCard() {
       title: "Projet Scolaire bibliothèque de manga",
       description: "Un site web réalisé pour un projet scolaire de MMI.",
       technologies: "PHP, HTML/CSS",
-      date: "Octobre 2022",
+      date: "Octobre, 2022",
       src: "images/manga.png",
       href: "https://manga.arena.etu.mmi-unistra.fr/"
     }
   ];
 
   return (
-    <section id="projets" className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:p-6 container">
+    
+    <section id="projets" >
+      <h2 className="text-3xl font-bold text-center tracking-tighter sm:text-4xl m-3 hover:underline">Projets</h2>
+      <div className="grid grid-cols-1 gap-6 p-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:p-6 container">
       {projects.map((project, i) => (
         <div key={i} className="relative overflow-hidden transition-transform duration-300 ease-in-out rounded-lg shadow-lg group hover:shadow-xl hover:-translate-y-2">
           <Link href={project.href} target="_blank" className="absolute inset-0 z-10" prefetch={false}>
@@ -69,6 +72,7 @@ export default function ProjectsCard() {
           </div>
         </div>
       ))}
+      </div>
     </section>
   );
 }
