@@ -9,6 +9,7 @@ interface ProjectProps {
   date: string;
   src: string | null;
   href: string;
+  project: string;
 }
 
 export default function ProjectsCard() {
@@ -19,7 +20,8 @@ export default function ProjectsCard() {
       technologies: "NextJS, TypeScript",
       date: "Avril, 2024",
       src: "images/642shots_so.png",
-      href: "https://mode-three.vercel.app/"
+      href: "https://mode-three.vercel.app/",
+      project: "Duo, développement"
     },
     {
       title: "Daichi",
@@ -27,7 +29,8 @@ export default function ProjectsCard() {
       technologies: "HTML/CSS, JavaScript",
       date: "Décembre, 2023",
       src: "images/181shots_so.png",
-      href: "https://exemple.showmyteam.fr/"
+      href: "https://exemple.showmyteam.fr/",
+      project: "Duo, développement"
     },
     {
       title: "Communauté MMI",
@@ -35,7 +38,8 @@ export default function ProjectsCard() {
       technologies: "Wordpress, JavaScript",
       date: "Mai, 2022",
       src: "images/723_1x_shots_so.png",
-      href: "https://communaute-mmi.fr/"
+      href: "https://communaute-mmi.fr/",
+      project: "Groupe de 4, développement"
     },
     {
       title: "Projet Scolaire bibliothèque de manga",
@@ -43,7 +47,8 @@ export default function ProjectsCard() {
       technologies: "PHP, HTML/CSS",
       date: "Octobre, 2022",
       src: "images/136_1x_shots_so.png",
-      href: "https://manga.arena.etu.mmi-unistra.fr/"
+      href: "https://manga.arena.etu.mmi-unistra.fr/",
+      project: "Individuelle, développement et design intégrale"
     }
   ];
 
@@ -67,6 +72,9 @@ export default function ProjectsCard() {
               </Badge>
               <span className="text-xs text-muted-foreground">{project.date}</span>
             </div>
+            <Badge variant="secondary" className="text-xs mb-2">
+                {project.project}
+              </Badge>
             <h3 className="text-xl font-bold">{project.title}</h3>
             <p className="text-sm text-muted-foreground">{project.description}</p>
           </div>
