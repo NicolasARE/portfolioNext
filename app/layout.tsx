@@ -13,6 +13,8 @@ export const metadata: Metadata = {
   title: "ARENA Nicolas | Portfolio",
   description: "ARENA Nicolas, un développeur fullstack passionné par la création de sites web et d'applications web modernes et performantes.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+  image: "/images/computer.jpg",
+  robots: "all",
   keywords: [
       "Creative Web Developer France",
       "Web Developer Portfolio",
@@ -26,7 +28,15 @@ export const metadata: Metadata = {
       "React portfolio",
       "arena nicolas portfolio",
   ],
-  image: "/images/computer.jpg",
+  openGraph: {
+    title: "Mon portfolio | Nicolas ARENA",
+    description:
+      "ARENA Nicolas, un développeur fullstack passionné par la création de sites web et d'applications web modernes et performantes.",
+    images: "/images/computer.jpg",
+    url: "https://www.nicolas-arena.fr/",
+    type: "website",
+    siteName: "Mon portfolio | Nicolas ARENA",
+  },
 };
 
 export default function RootLayout({
