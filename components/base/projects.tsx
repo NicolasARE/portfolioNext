@@ -33,15 +33,6 @@ export default function ProjectsCard() {
       project: "Duo, développement"
     },
     {
-      title: "Communauté MMI",
-      description: "Un site web réalisé pour la communauté MMI de l'IUT de Haguenau.",
-      technologies: "Wordpress, JavaScript",
-      date: "Mai, 2022",
-      src: "images/723_1x_shots_so.png",
-      href: "https://communaute-mmi.fr/",
-      project: "Groupe de 4, développement"
-    },
-    {
       title: "Projet Scolaire bibliothèque de manga",
       description: "Un site web réalisé pour un projet scolaire de MMI.",
       technologies: "PHP, HTML/CSS",
@@ -49,6 +40,15 @@ export default function ProjectsCard() {
       src: "images/136_1x_shots_so.png",
       href: "https://manga.arena.etu.mmi-unistra.fr/",
       project: "Individuelle, développement et design intégrale"
+    },
+    {
+      title: "Communauté MMI",
+      description: "Un site web réalisé pour la communauté MMI de l'IUT de Haguenau.",
+      technologies: "Wordpress, JavaScript",
+      date: "Mai, 2022",
+      src: "images/723_1x_shots_so.png",
+      href: "https://communaute-mmi.fr/",
+      project: "Groupe de 4, développement"
     }
   ];
 
