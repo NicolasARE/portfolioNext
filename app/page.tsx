@@ -21,7 +21,7 @@ export default function Home() {
 
       <main>
         <div className="z-10 flex min-h-[16rem] items-center justify-center rounded-lg border bg-white dark:bg-black">
-          <TextRevealByWord text="Je suis un étudiant de 21 ans en 3ème années de BUT MMI à Haguenau en alternance, actuellement chez Cegid." />
+          <TextRevealByWord text="Je suis un alternant de 21 ans en 1 ère année de Master Développement web à Ynov Strasbourg, actuellement chez Euro-Information." />
         </div>
         <ProjectsCard />
         <Contact />
